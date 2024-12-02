@@ -103,16 +103,16 @@
     </header>
     <div class="box">
       <div class="image-links">
-        <a href="Driver/Driverlihat.php">
-          <img src="../taxiafriza/gambar/driver.png" alt="Image 1">
+        <a href="./Driver/Driverlihat.php">
+          <img src="./gambar/driver.png" alt="Image 1">
           <p>Driver</p>
         </a>
-        <a href="Booking/Bookinglihat.php">
-          <img src="../taxiafriza/gambar/booking.png" alt="Image 2">
+        <a href="./Booking/Bookinglihat.php">
+          <img src="./gambar/booking.png" alt="Image 2">
           <p>Booking</p>
         </a>
-        <a href="Pelanggan/Pelangganlihat.php">
-          <img src="../taxiafriza/gambar/pelanggan.png" alt="Image 3">
+        <a href="./Pelanggan/Pelangganlihat.php">
+          <img src="./gambar/pelanggan.png" alt="Image 3">
           <p>Pelanggan</p>
         </a>
       </div>
