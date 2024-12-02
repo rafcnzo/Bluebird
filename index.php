@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <img src="../taxiafriza/gambar/logo.png" alt="Logo" class="logo">
+  <img src="./gambar/logo.png" alt="Logo" class="logo">
   <div class="login-container">
     <h2>Masuk ke Akun Anda</h2>
     <form action="#" method="post">
@@ -35,7 +35,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: url(../taxiafriza/gambar/background.png);
+    background: url(./gambar/background.png);
     background-size: 100%;
   }
 
