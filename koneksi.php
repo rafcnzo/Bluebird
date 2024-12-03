@@ -5,7 +5,7 @@ $password = getenv('lGFtEBBSbSiCTyzaSossuciQsJtECvMt');
 $dbname = getenv('railway');
 $port = getenv(32607);
 
-var_dump($servername, $username, $password, $dbname, $port);
+var_dump($host, $username, $password, $dbname, $port);
 
 // Membuat koneksi
 $conn = new mysqli($host, $username, $password, $dbname, $port);
