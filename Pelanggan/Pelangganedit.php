@@ -160,6 +160,6 @@ if (isset($_POST['proses'])) {
 
 
     mysqli_query($conn, "update pelanggan set Nama_pemesan='$Nama_pemesan',No_telepon_pemesan='$No_telepon_pemesan',Email_pemesan='$Email_pemesan' where Id_pemesan='$Id_pemesan'");
-    header("location:Pelangganlihat.php");
+    header("location:./Pelangganlihat.php");
 }
 ?>
