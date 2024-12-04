@@ -267,7 +267,7 @@ if (isset($_POST['proses'])) {
             VALUES ('$id_Booking', '$Tanggal', '$Jarak', '$Waktu_tempuh', '$Kota_pemesanan', '$Alamat_asal', '$Alamat_Tujuan', '$Waktu_awal', '$Waktu_tiba', '$No_driver', '$Harga_perkilo', '$Id_pemesan', '$Meter_fare', '$Actual_fare', '$Diskon', '$Extra', '$Total')";
 
     if (mysqli_query($conn, $sql)) {
-        echo "<script>window.location.href = 'Bookinglihat.php?id_Booking=" . $id_Booking . "';</script>";
+        echo "<script>window.location.href = './Bookinglihat.php?id_Booking=" . $id_Booking . "';</script>";
     } else {
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
