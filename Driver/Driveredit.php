@@ -149,6 +149,6 @@ if (isset($_POST['proses'])) {
 
     mysqli_query($conn, "update driver set 
                             Nama_driver='$Nama_driver' where No_driver='$No_driver'");
-    header("location:Driverlihat.php");
+    header("location:./Driverlihat.php");
 }
 ?>
