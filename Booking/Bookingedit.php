@@ -281,7 +281,7 @@ $data = mysqli_fetch_array($query);
 
         <tr>
             <td></td>
-            <td><input type="submit" name="proses" value="Ubah Booking"><a class="kembali" href="Bookinglihat.php">Kembali</a> </td>
+            <td><input type="submit" name="proses" value="Ubah Booking"><a class="kembali" href="./Bookinglihat.php">Kembali</a> </td>
         </tr>
     </table>
 </form>
