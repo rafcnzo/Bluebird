@@ -139,6 +139,6 @@ if (isset($_POST['proses'])) {
     $Nama_driver = $_POST['Nama_driver'];
 
     mysqli_query($conn, "INSERT INTO driver VALUES('$No_driver','$Nama_driver')");
-    header("location:Driverlihat.php");
+    header("location:./Driverlihat.php");
 }
 ?>
