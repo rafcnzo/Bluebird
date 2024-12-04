@@ -239,7 +239,7 @@
                 <th>Aksi</th>
             </tr>
             <?php
-            include '../koneksi.php';
+            include './koneksi.php';
             $limit = 10;
             $page = isset($_GET['page']) ? $_GET['page'] : 1;
             $start = ($page - 1) * $limit;
