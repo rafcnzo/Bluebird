@@ -1,17 +1,21 @@
 <?php
-$host = getenv('junction.proxy.rlwy.net');
-$username = getenv('root');
-$password = getenv('lGFtEBBSbSiCTyzaSossuciQsJtECvMt');
-$dbname = getenv('railway');
-$port = getenv(32607);
+// Fetching environment variables
+$host = getenv('DB_HOST'); 
+$username = getenv('DB_USER');
+$password = getenv('DB_PASS');
+$dbname = getenv('DB_NAME');
+$port = getenv('DB_PORT');
 
-var_dump($host, $username, $password, $dbname, $port);
+// Debugging (Only use in development)
+// var_dump($host, $username, $password, $dbname, $port);
 
-// Membuat koneksi
+// Creating connection
 $conn = new mysqli($host, $username, $password, $dbname, $port);
 
-// Cek koneksi
+// Check connection
 if ($conn->connect_error) {
-    die("Koneksi gagal: " . $conn->connect_error);
+    die("Connection failed: " . $conn->connect_error);
 }
+
+echo "Connection successful!";
 ?>
