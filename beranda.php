@@ -88,7 +88,7 @@
 
   <nav class="navbar">
     <div class="navbar-logo">
-      <img src="../taxiafriza/gambar/bluebird.png" alt="Logo" class="logo">
+      <img src="./gambar/bluebird.png" alt="Logo" class="logo">
     </div>
     <div class="navbar-greeting">
       Selamat datang, <span class="username">User</span>!
