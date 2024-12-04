@@ -149,6 +149,6 @@ if (isset($_POST['proses'])) {
     $Email_pemesan = $_POST['E-mail_pemesan'];
 
     mysqli_query($conn, "INSERT INTO pelanggan VALUES('$Id_pemesan','$Nama_pemesan','$No_telepon_pemesan','$Email_pemesan')");
-    header("location:Pelangganlihat.php");
+    header("location:./Pelangganlihat.php");
 }
 ?>
